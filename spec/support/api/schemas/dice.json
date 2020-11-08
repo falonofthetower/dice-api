@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": ["rolls"],
+  "properties": {
+    "rolls": {
+      "type": "array",
+      "items": {
+        "type": "number",
+        "multipleOf": 1,
+        "minimum": 1,
+        "maximum": 6
+      }
+    }
+  }
+}
